@@ -1,6 +1,8 @@
 .list-body, html {
     /* background-color: #eefa51; */
     background-color: #dae6e4;
+    height: 100%;
+    width: 100%;
 }
 
 .list-container {
@@ -28,6 +30,7 @@
 @media(max-width: 1024px) {
     .form-container {
         column-count: 1;
+        font-size: 24px;
     }
 }
 
