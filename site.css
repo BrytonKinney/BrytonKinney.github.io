@@ -1,5 +1,6 @@
 .list-body, html {
-    background-color: #eefa51;
+    /* background-color: #eefa51; */
+    background-color: #dae6e4;
 }
 
 .list-container {
@@ -16,7 +17,7 @@
 
 .header {
     font-family: "Arial Black", Gadget, sans-serif;
-    background: #72a1ca;
+    background-color: #72a1ca;
     color: #f1fb0a;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .form-container {
-    background: #f3fb03;
+    background-color: #f3fb03;
     padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
