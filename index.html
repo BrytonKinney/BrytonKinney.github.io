@@ -17,7 +17,7 @@
                 <th style="width: calc(33vw);">
                   Name
                 </th>
-                <th style="width: calc(33vw);">
+                <th style="width: calc(33vw);" class="sortable">
                   Price
                 </th>
                 <th style="width: calc(33vw);">
@@ -103,5 +103,9 @@
 </body>
 <script type="text/javascript">
   const dataValueAttrs = document.querySelectorAll('td[data-value]');
+  const sortHeader = document.querySelector('th.sortable');
+  sortHeader.addEventListener('click', function(el) {
+    console.log(dataValueAttrs);
+  });
   console.log(dataValueAttrs);
 </script>
