@@ -105,6 +105,10 @@
   const dataValueAttrs = document.querySelectorAll('td[data-value]');
   const sortHeader = document.querySelector('th.sortable');
   sortHeader.addEventListener('click', function(el) {
+    const table = document.querySelector('table');
+    const rows = table.getElementsByTagName('tr');
+    console.log(table);
+    console.log(rows);
     console.log(dataValueAttrs);
   });
   console.log(dataValueAttrs);
